@@ -1,0 +1,153 @@
+.slider {
+  background-color: gray;
+  width: 500px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.num {
+  position: absolute;
+  background-color: blue;
+  padding: 1px;
+  border-radius: 5px;
+  color: wheat;
+  top: 40px;
+  left: 206px;
+}
+
+.slider section {
+  background-color: red;
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.circle {
+  position: absolute;
+  top: 64px;
+  left: 190px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(145, 241, 120);
+  border-radius: 50%;
+}
+
+.line1 div {
+  width: 5px;
+  height: 25px;
+  background-color: gray;
+}
+
+.line1 {
+  position: relative;
+  bottom: 1px;
+  left: 23px;
+  display: flex;
+  gap: 45px;
+  z-index: -1;
+}
+
+.line2 {
+  position: relative;
+  bottom: 25px;
+  left: 45px;
+  display: flex;
+  gap: 2.8%;
+  z-index: -1;
+}
+
+.line2_ div {
+  width: 2px;
+  height: 10px;
+  background-color: gray;
+}
+
+.line2_ {
+  display: flex;
+  gap: 5px;
+}
+
+.bottom_num {
+  display: flex;
+  position: relative;
+  left: 23px;
+  display: flex;
+  gap: 41px;
+  font-size: 10px;
+}
+
+.top_num {
+  position: absolute;
+  display: flex;
+  gap: 455px;
+  top: 55px;
+}
+
+.top_num div {
+  background-color: gray;
+  color: wheat;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.slider2 {
+  background-color: gray;
+  width: 500px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.slider2 section {
+  position: relative;
+  left: 220px;
+  background-color: red;
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.circle2 {
+  position: absolute;
+  top: 212px;
+  left: 208px;
+  display: flex;
+  gap: 150px;
+}
+
+.circle2 div {
+  top: 64px;
+  left: 190px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(145, 241, 120);
+  border-radius: 50%;
+}
+
+.top_num2 {
+  position: absolute;
+  display: flex;
+  gap: 455px;
+  top: 200px;
+}
+
+.top_num2 div {
+  background-color: gray;
+  color: wheat;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.num2 {
+  display: flex;
+  gap: 185px;
+  position: absolute;
+  top: 190px;
+  left: 222px;
+}
+
+.num2 div {
+  color: wheat;
+  padding: 1px;
+  background-color: blue;
+  border-radius: 5px;
+}
